@@ -1,5 +1,8 @@
-body {
+.body-city-wrapper {
   background-color: #959595;
+  height: 100%;
+  background-image: url('../assets/grama.png');
+  background-repeat: repeat;
 }
 
 .wrapper {

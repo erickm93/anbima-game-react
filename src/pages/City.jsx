@@ -106,7 +106,7 @@ export default () => {
   };
 
   return (
-    <div>
+    <div className="body-city-wrapper">
       <div className="wrapper">
         <Popover placement="top" content={houseComponent()} trigger="click">
           <img

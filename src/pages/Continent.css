@@ -1,5 +1,7 @@
 .body-wrapper {
-  background-color: #00A6FF;
+  background-color: #02273B;
+  background-image: url('../assets/mar.PNG');
+  background-repeat: repeat;
   height: 100%;
 }
 
