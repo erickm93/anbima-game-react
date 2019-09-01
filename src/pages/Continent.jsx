@@ -20,42 +20,48 @@ const fundsButton = () => (
 export default () => {
   return (
     <div className="body-wrapper">
-      <Popover placement="topRight" content={"Previdência Privada"} trigger="click">
-        <img
-          src={continent1}
-          className="continent-img"
-        />
-      </Popover>
-      <Popover placement="topRight" content={"Títulos Publicos"} trigger="click">
-        <img
-          src={continent2}
-          className="continent-img continent-right"
-        />
-      </Popover>
-      <Popover placement="topRight" content={fundsButton()} trigger="click">
-        <img
-          src={continent3}
-          className="continent-img"
-        />
-      </Popover>
-      <Popover placement="topRight" content={"Ações"} trigger="click">
-        <img
-          src={continent4}
-          className="continent-img continent-right"
-        />
-      </Popover>
-      <Popover placement="topRight" content={"Títulos Privados"} trigger="click">
-        <img
-          src={continent5}
-          className="continent-img"
-        />
-      </Popover>
-      <Popover placement="topRight" content={"Poupança"} trigger="click">
-        <img
-          src={continent6}
-          className="continent-img continent-right"
-        />
-      </Popover>
+      <div className="continent-line">
+        <Popover placement="topRight" content={"Previdência Privada"} trigger="click">
+          <img
+            src={continent1}
+            className="continent-img continent-left"
+          />
+        </Popover>
+        <Popover placement="topRight" content={"Títulos Publicos"} trigger="click">
+          <img
+            src={continent2}
+            className="continent-img continent-right"
+          />
+        </Popover>
+      </div>
+      <div className="continent-line">
+        <Popover placement="topRight" content={fundsButton()} trigger="click">
+          <img
+            src={continent3}
+            className="continent-img continent-left"
+          />
+        </Popover>
+        <Popover placement="topRight" content={"Ações"} trigger="click">
+          <img
+            src={continent4}
+            className="continent-img continent-right"
+          />
+        </Popover>
+      </div>
+      <div className="continent-line">
+        <Popover placement="topRight" content={"Títulos Privados"} trigger="click">
+          <img
+            src={continent5}
+            className="continent-img continent-left"
+          />
+        </Popover>
+        <Popover placement="topRight" content={"Poupança"} trigger="click">
+          <img
+            src={continent6}
+            className="continent-img continent-right"
+          />
+        </Popover>
+      </div>
       <img
         src={boat}
         className="boat-character"

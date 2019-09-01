@@ -1,5 +1,6 @@
 .body-wrapper {
   background-color: #00A6FF;
+  height: 100%;
 }
 
 .continent-img {
@@ -8,18 +9,32 @@
   margin-bottom: 30px;
   margin-top: 30px;
   margin-left: 15px;
+  align-self: center;
 }
 
 .continent-right {
-  margin-left: 60px;
+  margin-right: 20px;
 }
 
 .boat-character {
   max-width: 40%;
   margin-left: 20px;
+  margin-top: 40px;
 }
 
 .robot-character {
   max-width: 20%;
   margin-left: 30%;
+  margin-top: 40px;
+}
+
+.continent-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.continent-left {
+  margin-left: 20px;
 }
