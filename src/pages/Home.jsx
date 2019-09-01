@@ -1,6 +1,6 @@
 import React from 'react';
 import Particles from 'react-particles-js';
-import { Button } from 'antd';
+import { Button, Icon } from 'antd';
 import { Link } from "react-router-dom";
 import spaceshipCharacter from '../assets/spaceship_character.svg';
 import './Home.css';
@@ -30,6 +30,12 @@ export default () => {
           Clique aqui para iniciar o jogo!
         </Button>
       </Link>
+      <p className="icons-text">Compartilhe!</p>
+      <div className="icons-social">
+        <Icon type="facebook" theme="filled" className="icon-unit" />
+        <Icon type="twitter-square" theme="filled" className="icon-unit" />
+        <Icon type="linkedin" theme="filled" className="icon-unit" />
+      </div>
     </div>
   )
 };
