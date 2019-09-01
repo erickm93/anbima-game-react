@@ -33,6 +33,7 @@ export default () => {
   const [quizzAnswered, setQuizzAnswered] = useState(false);
   const [drawerVisible, setDrawerVisible] =  useState(false);
   const [coins, setCoins] = useState(0);
+  const [points, setPoints] = useState(0);
   const formRef = useRef(null);
 
   const openVideoModal = () => {
@@ -55,10 +56,11 @@ export default () => {
     form.validateFields((err, values) => {
       if (!err) {
         if (values.questionAnswer === 1) {
-          message.success('Parabéns, você acertou a pergunta.');
+          message.success('Parabéns, você acertou a pergunta. Você ganhou uma moeda de bronze e 50 pontos!');
           setHouseLevel(2);
           setQuizzAnswered(true);
           setCoins(1);
+          setPoints(50);
           closeFormModal();
 
           return;
@@ -205,6 +207,13 @@ export default () => {
         <p><Icon component={() => <img src={bronzeCoin} width="20px" height="20px"/>} />{` Bronze : ${coins}`}</p>
         <p><Icon component={() => <img src={prataCoin} width="20px" height="20px"/>} /> Prata : 0</p>
         <p><Icon  component={() => <img src={ouroCoin} width="20px" height="20px"/>} /> Ouro : 0</p>
+        <h2 className="ranking-title">Ranking</h2>
+        <p className="ranking-position">1 - Roberto: 14725</p>
+        <p className="ranking-position">2 - João: 10100</p>
+        <p className="ranking-position">3 - Felipe: 9870</p>
+        <p className="ranking-position">4 - José: 7200</p>
+        <p className="ranking-position">5 - Joel: 1200</p>
+        <p className="ranking-self">{`6 - Você: ${points}`}</p>
       </Drawer>
     </div>
   );

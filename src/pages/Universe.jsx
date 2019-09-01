@@ -128,7 +128,7 @@ export default () => {
       <div className="App-robobob_pox">
         <Popover
           trigger="click"
-          placement="top"
+          placement="topRight"
           content={carouselRenderer()}
         >
       	  <img src={robobob} className="App-robobob" alt="robobob" />

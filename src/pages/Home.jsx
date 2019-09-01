@@ -3,7 +3,6 @@ import Particles from 'react-particles-js';
 import { Button, Icon } from 'antd';
 import { Link } from "react-router-dom";
 import spaceshipCharacter from '../assets/spaceship_character.svg';
-import logo from '../assets/pegadas_bco.png';
 import './Home.css';
 
 export default () => {

@@ -67,7 +67,9 @@
 
 .App-robobob{
   height: 25vmin;
-
+  position: absolute;
+  bottom: 10px;
+  right: 5px;
 }
 
 @keyframes spin {
@@ -81,15 +83,13 @@
 
 .App-aviao_pox{
 
-animation: spin 10s linear infinite; 
-
-bottom: 200px; left: 100px; position: absolute;
+bottom: 10px; left: 10px; position: absolute;
 
 
 }
 
 .App-aviao{
-  height: 20vmin;
+  height: 35vmin;
 
 }
 
