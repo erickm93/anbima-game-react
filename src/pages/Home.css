@@ -1,5 +1,17 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  height: 100%;
+}
+
+.Particles {
+  flex: 1;
 }
 
 .App-logo {
@@ -21,6 +33,20 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.init-button {
+  position: relative;
+  flex-direction: row;
+  max-width: 70%;
+  text-align: center;
+  top: -500%;
+}
+
+.welcome_img {
+  position: absolute;
+  max-width: 60%;
+  top: 30%;
 }
 
 @keyframes App-logo-spin {
