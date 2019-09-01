@@ -1,15 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Link } from 'react-router-dom';
+import logo from '../assets/logo.svg';
+import './Home.css';
 
-function App() {
+export default () => {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Link to="/universe">Universe</Link>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -20,7 +19,5 @@ function App() {
         </a>
       </header>
     </div>
-  );
-}
-
-export default App;
+  )
+};
