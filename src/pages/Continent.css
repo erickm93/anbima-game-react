@@ -1,0 +1,25 @@
+body {
+  background-color: #33C1FF;
+}
+
+.continent-img {
+  max-width: 30%;
+  max-height: 10%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+.continent-right {
+  margin-left: 60px;
+}
+
+.boat-character {
+  max-width: 40%;
+  margin-left: 20px;
+}
+
+.robot-character {
+  max-width: 20%;
+  margin-left: 30%;
+}
