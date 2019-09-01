@@ -19,7 +19,7 @@ const fundsButton = () => (
 
 export default () => {
   return (
-    <div>
+    <div className="body-wrapper">
       <Popover placement="topRight" content={"Previdência Privada"} trigger="click">
         <img
           src={continent1}
