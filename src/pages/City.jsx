@@ -18,6 +18,9 @@ import tree1 from '../assets/tree1.png';
 import tree2 from '../assets/tree2.png';
 import robot from '../assets/robot_bob.png';
 import mainCharacter from '../assets/main_character.png';
+import bronzeCoin from '../assets/coin_bronze.svg';
+import prataCoin from '../assets/coin_prata.svg';
+import ouroCoin from '../assets/coin_ouro.svg';
 import QuestionForm from '../components/QuestionForm';
 import './City.css';
 
@@ -199,9 +202,9 @@ export default () => {
         onClose={closeDrawer}
         visible={drawerVisible}
       >
-        <p><Icon type="check-circle" theme="twoTone" twoToneColor="#52c41a" />{` Bronze : ${coins}`}</p>
-        <p><Icon type="check-circle" theme="twoTone" twoToneColor="#52c41a" /> Prata : 0</p>
-        <p><Icon type="check-circle" theme="twoTone" twoToneColor="#52c41a" /> Ouro : 0</p>
+        <p><Icon component={() => <img src={bronzeCoin} width="20px" height="20px"/>} />{` Bronze : ${coins}`}</p>
+        <p><Icon component={() => <img src={prataCoin} width="20px" height="20px"/>} /> Prata : 0</p>
+        <p><Icon  component={() => <img src={ouroCoin} width="20px" height="20px"/>} /> Ouro : 0</p>
       </Drawer>
     </div>
   );
