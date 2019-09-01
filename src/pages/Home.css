@@ -71,7 +71,21 @@
 .icons-text {
   position: relative;
   bottom: 150px;
-  color: bisque
+  color: bisque;
+}
+
+@font-face {
+  font-family: 'space_age';
+  src: url(../fonts/space_age.ttf);
+}
+
+.logo {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-family: 'space_age', 'Courier', sans-serif;
+  color: bisque;
+  text-align: center;
 }
 
 @keyframes App-logo-spin {

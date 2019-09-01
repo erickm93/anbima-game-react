@@ -3,6 +3,7 @@ import Particles from 'react-particles-js';
 import { Button, Icon } from 'antd';
 import { Link } from "react-router-dom";
 import spaceshipCharacter from '../assets/spaceship_character.svg';
+import logo from '../assets/pegadas_bco.png';
 import './Home.css';
 
 export default () => {
@@ -21,6 +22,9 @@ export default () => {
         }}
         className="Particles"
       />
+      <h1 className="logo">
+        Novo Universo
+      </h1>
       <img
         src={spaceshipCharacter}
         className="welcome_img"
