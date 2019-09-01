@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Button } from 'antd';
 import logo from '../assets/logo.svg';
 import './Home.css';
 
@@ -17,6 +18,7 @@ export default () => {
         >
           Learn React
         </a>
+        <Button type="primary">Button</Button>
       </header>
     </div>
   )
