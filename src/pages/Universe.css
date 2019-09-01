@@ -1,0 +1,111 @@
+.App{
+  
+  }
+
+.App-header {
+  background-image: url("https://i0.wp.com/media.eurekalert.org/multimedia_prod/pub/web/164176_web.jpg"); 
+
+}
+
+.teste{
+ bottom: 500px; right: 200px; position: absolute; 
+
+ 
+}
+
+
+
+.App-planet_pox{
+
+   bottom: 200px; left: 250px; position: absolute; 
+
+
+}
+
+.App-mercury_pox{
+
+  bottom: 500px; left: 250px; position: absolute;
+  
+}
+
+.App-venus_pox{
+  bottom: 200px; right: 250px; position: absolute; 
+
+  
+}
+
+.App-planet {
+  
+  height: 20vmin;
+  
+}
+
+.App-mercury {
+  
+  height: 20vmin;
+
+  
+}
+
+.App-saturn {
+  
+  height: 20vmin;
+  
+}
+
+.App-venus {
+ 
+  height: 20vmin;
+  
+}
+
+
+
+.App-robobob_pox{
+
+}
+
+.App-robobob{
+  height: 25vmin;
+
+}
+
+@keyframes spin {
+ 0% {
+  transform: rotateZ(100deg);
+ }
+ 100% {
+  transform: rotateZ(180deg);
+ }
+}
+
+.App-aviao_pox{
+
+animation: spin 10s linear infinite; 
+
+bottom: 200px; left: 100px; position: absolute;
+
+
+}
+
+.App-aviao{
+  height: 20vmin;
+
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.element {
+  align-self: center;
+}
+
+.text {
+  align-self: center;
+  text-align: center;
+  max-width: 50%;
+}
